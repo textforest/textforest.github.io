@@ -56,9 +56,6 @@ function graphToVisualization (graph) {
 
 }
 
-function addNode (graph, node) {
-
-}
 
 function flatten (array) {
     if (array instanceof Array) {
