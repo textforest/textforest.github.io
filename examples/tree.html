@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src='../vendor/d3.v3.min.js'></script>
+    <script src='../vendor/nv.d3.js'></script>
+    <script src='../js/tree.js'></script>
+
+    <link rel='stylesheet' href='../vendor/nv.d3.css'>
+  </head>
+  <body>
+
+    <textarea id='text-area' rows='4' cols='50'></textarea>
+    <button id='button'>Generate Statistics</button>
+
+    <h2>Text Statistics</h2>
+    <div id='charts'></div>
+
+    <script>
+
+      d3.select('#charts').append('svg');
+
+      document.addEventListener('DOMContentLoaded', function () {
+        //textforest();
+        main();
+      });
+    </script>
+  </body>
+</html>
