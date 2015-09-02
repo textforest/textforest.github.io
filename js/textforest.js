@@ -19,6 +19,8 @@ function textforest () {
 
                 nv.utils.windowResize(chart.update);
 
+                
+
                 return chart;
             });
         });
